@@ -116,7 +116,7 @@ public class Main {
             while (!enemySide.checkLost() && !playerSide.checkLost()) {
                 System.out.print(ansi().eraseScreen());
                 enemySide.drawSide();
-                for (int i = 0; i < 15; i++) System.out.print(ansi().fg(DEFAULT).a("-"));
+                for (int i = 0; i < 25; i++) System.out.print(ansi().fg(DEFAULT).a("-"));
                 System.out.println("");
                 playerSide.drawSide();
                 if(shotPos == -2) System.out.println(ansi().
