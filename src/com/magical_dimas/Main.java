@@ -1,5 +1,8 @@
 package com.magical_dimas;
 
+import org.fusesource.jansi.Ansi;
+import org.fusesource.jansi.AnsiConsole;
+
 import static org.fusesource.jansi.Ansi.Color.*;
 
 import java.util.*;
@@ -10,6 +13,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        AnsiConsole.systemInstall();
         int chosen;
         while (true) {
             do {
