@@ -178,7 +178,7 @@ public class Main {
                 if(shotPos>=0) break;
                 System.out.print(ansi().eraseScreen());
                 enemySide.drawSide();
-                for (int i = 0; i < 15; i++) System.out.print(ansi().fg(DEFAULT).a("-"));
+                for (int i = 0; i < 25; i++) System.out.print(ansi().fg(DEFAULT).a("-"));
                 System.out.println("");
                 playerSide.drawSide();
                 System.out.println(ansi().fg(RED).a("The enemy has hit your ship and gets another turn"));
